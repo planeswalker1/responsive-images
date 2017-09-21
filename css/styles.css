@@ -41,6 +41,15 @@ body {
   height: 600px;
 }
 
+.responsive-img-container img {
+  display: block;
+  width: 100%;
+}
+
+.content .responsive-img-container img {
+  max-width: 500px;
+}
+
 .sign-up {
   background-color: rgba(158, 158, 158, 0.5); /*lightgray*/
 }
