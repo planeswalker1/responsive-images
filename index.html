@@ -11,7 +11,22 @@
 <body>
   <div class="container">
     <div class="section menu"></div>
-    <div class="section header"></div>
+    <div class="section header">
+      <div class="responsive-img-container">
+        <picture>
+          <source media="(max-width: 400px)"
+                  srcset="images/photo-tall.jpg"
+                  alt="Picture of 2 iphones and 2 mac laptops">
+          <source media="(min-width: 401px)(max-width: 768px)"
+                  srcset="images/photo-small.jpg"
+                  alt="Picture of 2 iphones and 3 mac laptops">
+          <source media="(min-width: 769px)"
+                  srcset="images/photo-big.jpg"
+                  alt="Picture of 2 iphones and 3 mac laptops">
+          <img src="images/photo-small.jpg" alt="Picture of 2 iphones and 3 mac laptops">
+        </picture>
+      </div>
+    </div>
     <div class="section content">
       <div class="responsive-img-container">
         <img src="images/illustration-small.png"
